@@ -7,7 +7,8 @@ import Chatbot from "./Chatbot";
 const Services = () => {
   return (
 
-    <div className="overflow-x-hidden">
+   <section id="services" className="overflow-x-hidden">
+
       <div className="text-center my-20">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">What We Provide </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -19,7 +20,7 @@ const Services = () => {
       <Responsive/>
       <Perfomance/>
       <Chatbot/>
-    </div>
+    </section>
   );
 };
 

@@ -110,7 +110,7 @@ export default function OurTeam() {
       ],
 
       social: {
-        linkedin: "https://linkedin.com",
+        linkedin: "https://www.linkedin.com/in/ragesh-upadhyay-0a6389375/",
         email: "aman@example.com",
         phone: "+91 9999999999",
       },
