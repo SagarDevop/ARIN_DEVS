@@ -8,29 +8,46 @@ const Stats = () => {
   const statsRef = useRef(null);
 
   useEffect(() => {
-    const stats = statsRef.current;
+    const statsSection = statsRef.current;
+    const items = statsSection.querySelectorAll(".stat-number");
 
-    gsap.fromTo(
-      stats.querySelectorAll(".stat-item"),
-      { opacity: 0, y: 30 },
-      {
-        opacity: 1,
-        y: 0,
-        duration: 1,
-        stagger: 0.2,
-        scrollTrigger: {
-          trigger: stats,
-          start: "top 80%",
-        },
-      }
-    );
+    items.forEach((item) => {
+      const finalValue = item.getAttribute("data-value");
+
+      gsap.fromTo(
+        item,
+        { innerText: 0 },
+        {
+          innerText: finalValue.replace(/[^0-9]/g, ""),
+          duration: 2,
+          ease: "power1.out",
+          snap: { innerText: 1 },
+          scrollTrigger: {
+            trigger: statsSection,
+            start: "top 80%",
+          },
+          onUpdate: function () {
+            const raw = Math.floor(this.targets()[0].innerText);
+
+            // Add suffixes like + or %
+            if (finalValue.includes("+")) {
+              item.innerText = raw + "+";
+            } else if (finalValue.includes("%")) {
+              item.innerText = raw + "%";
+            } else {
+              item.innerText = raw;
+            }
+          },
+        }
+      );
+    });
   }, []);
 
   const stats = [
-    { number: "500+", label: "Satisfied Clients" },
-    { number: "150+", label: "Brands Trust Us" },
-    { number: "1000+", label: "Projects Delivered" },
-    { number: "98%", label: "Client Satisfaction" },
+    { number: "5+", label: "Satisfied Clients" },
+    { number: "1+", label: "Brands Trust Us" },
+    { number: "10+", label: "Projects Delivered" },
+    { number: "99%", label: "Client Satisfaction" },
   ];
 
   return (
@@ -39,8 +56,11 @@ const Stats = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-12">
           {stats.map((stat, index) => (
             <div key={index} className="stat-item text-center">
-              <h3 className="text-5xl md:text-6xl font-light mb-2 text-ios-blue">
-                {stat.number}
+              <h3
+                className="stat-number text-5xl md:text-6xl font-light mb-2 text-ios-blue"
+                data-value={stat.number}
+              >
+                0
               </h3>
               <p className="text-sm text-muted-foreground">{stat.label}</p>
             </div>

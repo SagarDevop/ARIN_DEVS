@@ -49,22 +49,37 @@ const Showcase = () => {
       description:
         "A modern shopping experience with seamless checkout, inventory management, and real-time analytics. Built for scale and conversion.",
       tech: "React, Node.js, Stripe",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+      image: "/eco.png",
     },
     {
-      title: "SaaS Dashboard",
+      title: "Restaurants  Websites",
       description:
         "Intuitive admin panel with data visualization, team collaboration, and advanced reporting. Clean interface, powerful features.",
       tech: "React, TypeScript, D3.js",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+      image: "/rest.png",
     },
     {
-      title: "Mobile-First App",
+      title: "Gym Websites",
       description:
         "Progressive web app delivering native-like experience. Offline support, push notifications, and lightning-fast performance.",
       tech: "Next.js, PWA, Firebase",
-      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop",
+      image: "/gym.png",
     },
+     {
+      title: "Booking Systems",
+      description:
+        "Progressive web app delivering native-like experience. Offline support, push notifications, and lightning-fast performance.",
+      tech: "React, Django, Firebase",
+      image: "/Book.png",
+    },
+    {
+  title: "Tour & Travel Websites",
+  description:
+    "End-to-end platform for discovering tours, checking availability, and making instant bookings. Includes real-time itinerary updates, secure payments, offline access, and smooth PWA experience for travelers on the go.",
+  tech: "React, PWA, Firebase",
+  image: "/tour.png",
+}
+
   ];
 
   return (

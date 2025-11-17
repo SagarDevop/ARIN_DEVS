@@ -52,17 +52,17 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "hello@arindevs.com",
+      value: "sagar.singh44818@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
+      value: "+91 9584236145",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Banda, Uttar Pradesh",
     },
   ];
 
