@@ -1,73 +1,105 @@
-# Welcome to your Lovable project
+<h1 align="center">Hi 👋, I'm Sagar Singh</h1>
+<h3 align="center">Full-Stack Developer | MERN | Python | Cloud | UI/UX</h3>
 
-## Project info
+<p align="center">
+  ⚡ I build modern web apps, scalable backends, and high-performance UIs  
+</p>
 
-**URL**: https://lovable.dev/projects/83430955-fecb-4592-aa8a-18937520ce09
+---
 
-## How can I edit this code?
+## 🚀 About Me
 
-There are several ways of editing your application.
+- 🎯 Full-Stack Developer (React • Next.js • Node.js • Express • Django • Flask)  
+- 🧠 Strong in System Architecture, APIs, Databases & App Optimization  
+- 🖥️ Experienced with UI/UX, animations, and seamless user experiences  
+- ☁️ Cloud & DevOps enthusiast (AWS, Docker, CI/CD)  
+- 💡 I love building smart tools — chatbots, automations, dashboards, and micro-services  
+- 📚 Always learning, always building
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/83430955-fecb-4592-aa8a-18937520ce09) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+### **Frontend**
+- React.js • Next.js • TypeScript • Redux  
+- Tailwind CSS • Framer Motion • GSAP • Bootstrap  
 
-**Use your preferred IDE**
+### **Backend**
+- Node.js • Express  
+- Python • Django • Flask  
+- REST APIs • JWT • WebSockets  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### **Database**
+- MongoDB • PostgreSQL • MySQL • Firebase  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### **DevOps / Cloud**
+- AWS (EC2, S3, Lambda)  
+- Docker • GitHub Actions • CI/CD Pipelines
 
-Follow these steps:
+### **Tools**
+- Postman • Figma • Git • GitHub  
+- Prisma • Mongoose • Redis  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📌 Featured Projects
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🔹 **AI Chatbot System**
+Custom chatbot for websites with NLP, context memory, and dashboard.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+**Tech:** Python, Flask, React, Firebase  
+**Features:** Sentiment analysis, data logging, admin analytics
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 🔹 **Modern Portfolio Website**
+Animated, responsive, SEO-optimized personal site.
 
-**Use GitHub Codespaces**
+**Tech:** React, GSAP, Framer Motion, TailwindCSS
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+### 🔹 **E-Commerce Web App**
+Full shopping system with cart, payment integration, and admin panel.
 
-This project is built with:
+**Tech:** MERN • Stripe • JWT • Redux
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+### 🔹 **Restaurant / Gym / Travel Websites**
+High-quality UI with CMS, animations, and admin dashboards.
 
-Simply open [Lovable](https://lovable.dev/projects/83430955-fecb-4592-aa8a-18937520ce09) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📈 GitHub Stats
 
-Yes, you can!
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=sagar&show_icons=true&theme=tokyonight" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sagar&layout=compact&theme=tokyonight" />
+</p>
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🌐 Socials
+
+<p align="left">
+<a href="https://linkedin.com/in/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin" />
+</a>
+<a href="https://github.com/" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-black?style=flat&logo=github" />
+</a>
+</p>
+
+---
+
+## 📬 Contact Me
+
+- 📩 Email: **your-email@gmail.com**  
+- 💼 Portfolio: **your-portfolio-link.com**  
+- 🤝 Open for freelance work & collaborations  
+
+---
+
+### ⭐ If you like my work, give a star to my repos!
+
