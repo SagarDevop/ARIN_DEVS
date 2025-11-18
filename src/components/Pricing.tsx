@@ -46,7 +46,7 @@ const Pricing = () => {
   const plans = [
     {
       name: "Starter",
-      price: "$2,999",
+      price: "7,999",
       period: "one-time",
       description: "Perfect for small businesses and startups",
       features: [
@@ -62,7 +62,7 @@ const Pricing = () => {
     },
     {
       name: "Professional",
-      price: "$5,999",
+      price: "10,999",
       period: "one-time",
       description: "Ideal for growing businesses",
       features: [

@@ -58,7 +58,7 @@ export default function OurTeam() {
       ],
 
       social: {
-        linkedin: "https://linkedin.com",
+        linkedin: "https://www.linkedin.com/in/sagar-singh-rajawat-2b9953337/",
         email: "sagar@example.com",
         phone: "+91 9876543210",
       },
@@ -112,7 +112,7 @@ export default function OurTeam() {
       social: {
         linkedin: "https://www.linkedin.com/in/ragesh-upadhyay-0a6389375/",
         email: "aman@example.com",
-        phone: "+91 9999999999",
+        phone: "+91 7068319412",
       },
     },
   ];
